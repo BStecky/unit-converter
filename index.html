@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unit Converter</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <main>
+        <!-- div to format the lower divs -->
+        <div class="outer">
+            <!-- Div to contain the overview, and accept user input -->
+            <div class="display">   
+                <h2 class="head">Metric/Imperial unit conversion</h2>
+                <h1 class="input" id="userInput">15</h1>
+            </div>
+            <!-- Div to contain the unit conversions -->
+             <div class="metrics">
+                <h3>Length (Meter/Feet)</h3>
+                <p id="lengthX"></p>
+
+                <h3>Volume (Liters/Gallons)</h3>
+                <p id="volumeX"></p>
+
+                <h3>Mass (Kilograms/Pounds)</h3>
+                <p id="massX"></p>
+             </div>
+         </div>
+         <!-- run the javascript -->
+        <script src="index.js"></script>
+    </main>
+</html>

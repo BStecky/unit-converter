@@ -1,0 +1,49 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  background: black;
+  margin: 0;
+}
+
+/* Classes */
+.outer {
+  display: grid;
+  border-radius: 200px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.display {
+  background-image: linear-gradient(
+    315deg,
+    hsl(275deg 96% 44%) 0%,
+    hsl(227deg 81% 66%) 50%,
+    hsl(201deg 100% 59%) 100%
+  );
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  margin-top: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.head {
+  font-size: 40px;
+}
+
+.input {
+  font-size: 100px;
+}
+
+.metrics {
+  background-color: rgb(23, 22, 26);
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  padding: 40px 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
